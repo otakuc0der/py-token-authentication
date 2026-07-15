@@ -48,3 +48,4 @@ class UserSerializer(ModelSerializer):
             user.save(update_fields=["password"])
 
         return user
+
